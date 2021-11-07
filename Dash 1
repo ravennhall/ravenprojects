@@ -4,13 +4,28 @@
  <style>
   body {
    text-align: center;
-   background: black;
+   background: url("https://i.imgur.com/BpVVeql_d.webp?maxwidth=640&shape=thumb&fidelity=medium");
+   background-size: cover;
+   background-position: center;
    color: white;
    font-famliy: helvetica;
   }
+   p {
+    font-size: 22px;
+   }
+   input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+   }
+   input[type="submit"] {
+    background: red;
+    color: white;
+   }
  </style>
 </head>
 <body>
+ <img src="https://i.imgur.com/Ni1kiFa_d.webp?maxwidth=640&shape=thumb&fidelity=medium">
  <h1>Raven Hall</h1>
  <p>Hi! I'm Raven Hall, a student of General Assembly. Say hello!</p>
  <input type="email" placeholder="Your email">
